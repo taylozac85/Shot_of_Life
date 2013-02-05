@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: reviews
+#
+#  id          :integer          not null, primary key
+#  review_date :date
+#  rating      :integer
+#  review      :text
+#  user_id     :integer
+#  drink_id    :integer
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  review_date: 2013-01-25
+  rating: 1
+  review: MyText
+  user_id: 1
+  drink_id: 1
+
+two:
+  review_date: 2013-01-25
+  rating: 1
+  review: MyText
+  user_id: 1
+  drink_id: 1

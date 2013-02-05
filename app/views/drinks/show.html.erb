@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Drink name:</b>
+  <%= @drink.drink_name %>
+</p>
+
+<p>
+  <b>Average rating:</b>
+  <%= @drink.average_rating %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @drink.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_drink_path(@drink) %> |
+<%= link_to 'Back', drinks_path %>

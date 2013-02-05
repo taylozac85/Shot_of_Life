@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: drinks
+#
+#  id             :integer          not null, primary key
+#  drink_name     :string(255)
+#  average_rating :float
+#  description    :text
+#  created_at     :datetime         not null
+#  updated_at     :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  drink_name: MyString
+  average_rating: 1.5
+  description: MyText
+
+two:
+  drink_name: MyString
+  average_rating: 1.5
+  description: MyText
